@@ -30,6 +30,15 @@ TARGET_INCLUDE_DIRECTORIES(
     ${CMAKE_CURRENT_SOURCE_DIR}
 )
 
+TARGET_LINK_LIBRARIES(
+
+    ${LIBRARY_NAME}
+
+    INTERFACE
+
+    Keypop::Reader
+)
+
 ADD_LIBRARY(
 
     Keypop::GenericCard
