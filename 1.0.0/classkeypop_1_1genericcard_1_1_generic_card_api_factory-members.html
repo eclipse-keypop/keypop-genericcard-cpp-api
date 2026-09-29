@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Keypop Generic Card C++ API - 1.0.0: Keypop Generic Card C++ API</title>
+<title>Keypop Generic Card C++ API - 1.0.0: Member List</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -65,7 +65,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('index.html',''); initResizable(); });
+$(document).ready(function(){initNavTree('classkeypop_1_1genericcard_1_1_generic_card_api_factory.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -83,40 +83,17 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 </iframe>
 </div>
 
-<div><div class="header">
-  <div class="headertitle"><div class="title">Keypop Generic Card C++ API </div></div>
+<div class="header">
+  <div class="headertitle"><div class="title">keypop::genericcard::GenericCardApiFactory Member List</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p ><a class="anchor" id="md__github_workspace_README"></a></p>
-<h1><a class="anchor" id="autotoc_md1"></a>
-Overview</h1>
-<p >This repository contains C++ source files aligned with the <a href="https://terminal-api.calypsonet.org/"><b>Terminal Generic Card</b></a> specifications proposed by the <a href="https://www.calypsonet.org">Calypso Networks Association</a>. This C++ interface is a port of the <a href="https://github.com/eclipse-keypop/keypop-genericcard-jvm-api">Keypop Generic Card Java API</a>, which remains the primary reference implementation. The C++ version aims to closely follow and maintain compatibility with the Java version, ensuring consistent functionality and adherence to the established specifications.</p>
-<p >The focus of this project is on providing interface definitions essential for selecting and operating transactions with generic (non-Calypso specific) smart cards. These interfaces serve as a foundational layer that can be extended and customized to suit specific application needs, while ensuring consistency across implementations, which is essential for enabling certification processes.</p>
-<p >While the codebase primarily consists of header files, some <code>.cpp</code> files are included for internal consistency testing and validation.</p>
-<h1><a class="anchor" id="autotoc_md2"></a>
-Key Characteristics</h1>
-<ul>
-<li><b>Interface-Driven Design</b>: The main source files define structures and interfaces. Concrete implementations can be provided by developers as per their specific requirements.</li>
-<li><b>Modular Interfaces</b>: Designed to support modular extensions, allowing developers to implement custom functionality while adhering to the standardized interface structure defined by this project.</li>
-<li><b>Compliance</b>: Aligned with the specifications of the Calypso Networks Association, ensuring that implementations conform to recognized standards, which is crucial for the terminal generic card layer certification.</li>
-</ul>
-<h1><a class="anchor" id="autotoc_md3"></a>
-Dependencies</h1>
-<p >This API relies on the <a href="https://github.com/eclipse-keypop/keypop-reader-cpp-api">Keypop Reader C++ API</a> for card reader and card selection related interfaces.</p>
-<h1><a class="anchor" id="autotoc_md4"></a>
-Usage</h1>
-<p >To use the interface definitions in your project, include the relevant headers in your source files and provide concrete implementations of the defined interfaces as needed.</p>
-<h1><a class="anchor" id="autotoc_md5"></a>
-Documentation &amp; Contribution Guide</h1>
-<p >The full documentation, including the <b>UML diagrams</b> and <b>design guide</b>, is available on the <a href="https://keypop.org/">Keypop website</a>.</p>
-<h2><a class="anchor" id="autotoc_md6"></a>
-Contributing</h2>
-<p >Refer to the <a href="https://keypop.org/community/contributing/">contributing guide</a> file for guidelines on how to contribute. Please adhere to the Code of Conduct when participating in this project.</p>
-<h1><a class="anchor" id="autotoc_md7"></a>
-License</h1>
-<p >This project is licensed under the [MIT License](LICENSE). For more details, please refer to the [LICENSE](LICENSE) file. </p>
-</div></div><!-- PageDoc -->
-</div><!-- contents -->
+
+<p>This is the complete list of members for <a class="el" href="classkeypop_1_1genericcard_1_1_generic_card_api_factory.html">keypop::genericcard::GenericCardApiFactory</a>, including all inherited members.</p>
+<table class="directory">
+  <tr class="even"><td class="entry"><a class="el" href="classkeypop_1_1genericcard_1_1_generic_card_api_factory.html#ae0c3ec562e80a343e5b9245c0edbec53">createCardTransaction</a>(const std::shared_ptr&lt; CardReader &gt; &amp;reader, const std::shared_ptr&lt; SmartCard &gt; &amp;card)=0</td><td class="entry"><a class="el" href="classkeypop_1_1genericcard_1_1_generic_card_api_factory.html">keypop::genericcard::GenericCardApiFactory</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classkeypop_1_1genericcard_1_1_generic_card_api_factory.html#a36602b7bdd17c3c2284bdd0e73530a0b">createGenericCardSelectionExtension</a>()=0</td><td class="entry"><a class="el" href="classkeypop_1_1genericcard_1_1_generic_card_api_factory.html">keypop::genericcard::GenericCardApiFactory</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classkeypop_1_1genericcard_1_1_generic_card_api_factory.html#a8907d22a2b89082d271b1203183f9b61">~GenericCardApiFactory</a>()=default</td><td class="entry"><a class="el" href="classkeypop_1_1genericcard_1_1_generic_card_api_factory.html">keypop::genericcard::GenericCardApiFactory</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+</table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
