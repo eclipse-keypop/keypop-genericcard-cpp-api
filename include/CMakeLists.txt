@@ -18,8 +18,8 @@ ADD_LIBRARY(
     INTERFACE
 )
 
-# Include Keypop Reader CMakeLists details
-INCLUDE("CMakeLists.txt.keypop-reader")
+# Keypop Reader is supplied by Conan (requires) via CMakeDeps
+FIND_PACKAGE(keypop-reader-cpp-api REQUIRED CONFIG)
 
 TARGET_INCLUDE_DIRECTORIES(
 
