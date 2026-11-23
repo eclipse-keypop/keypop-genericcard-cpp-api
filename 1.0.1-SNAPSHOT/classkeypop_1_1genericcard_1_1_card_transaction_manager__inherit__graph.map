@@ -1,0 +1,4 @@
+<map id="keypop::genericcard::CardTransactionManager" name="keypop::genericcard::CardTransactionManager">
+<area shape="rect" id="node1" title="Provides basic methods to prepare and process APDU exchange with a card." alt="" coords="249,13,423,54"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,201,61"/>
+</map>
